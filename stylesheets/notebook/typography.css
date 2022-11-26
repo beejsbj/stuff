@@ -1,8 +1,6 @@
 /* Should we pull in @fonts here? */
 
-body {
-	font-family: sans-serif;
-}
+
 .booming-voice,
 h1 {
 	font-family: serif;
@@ -50,7 +48,9 @@ h3 {
 
 }
 
-
+h4, h5, h6 {
+	font-family: serif;
+}
 
 .calm-voice,
 p,

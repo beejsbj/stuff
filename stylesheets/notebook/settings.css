@@ -18,8 +18,8 @@ html {
 
 	--corners: 10px; /* or whatevers */
 
-	--paper: hsla(209, 90%, 50%, 1.00); /*shadier dodgerblue*/
-	--ink: white;
+	--paper: hsla(0, 0%, 96%, 1.00); /*shadier dodgerblue*/
+	--ink: black;
 
 }
 

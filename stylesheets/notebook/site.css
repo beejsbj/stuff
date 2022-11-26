@@ -2,10 +2,24 @@
 
 @import 'setup.css';
 
-@import 'settings.css';
-
 @import 'typography.css';
 
+html {
+	--color: hsla(206, 66%, 77%, 1.00);
+	--highlight:hsla(190, 90%, 60%, 1.00);
+	--paper: hsla(0, 0%, 96%, 1.00); /*shadier dodgerblue*/
+	--ink: black;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--color: hsla(206, 66%, 47%, 1.00);
+		--highlight:hsla(190, 90%, 40%, 1.00);
+		--paper:  hsla(217, 8%, 13%, 1.00); 
+		--paper2: hsla(217, 6%, 17%, 1.00);  /*bunker*/
+		--ink: hsla(0, 0%, 96%, 1.00);  /*whitesmoke*/
+	}
+}
 
 body {
 	background-color: var(--paper);

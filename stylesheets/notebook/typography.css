@@ -1,5 +1,8 @@
 /* Should we pull in @fonts here? */
 
+body {
+	font-family: sans-serif;
+}
 .booming-voice,
 h1 {
 	font-family: serif;
@@ -63,6 +66,7 @@ li {
 
 :is(.calm-voice, p, li) strong {
 	font-weight: 700;
+	font-family: sans-serif;
 }
 
 .whisper-voice {

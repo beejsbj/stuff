@@ -1,6 +1,9 @@
 /* Should we pull in @fonts here? */
 @import 'preset.css';
 
+body {
+	font-family: sans-serif;
+}
 
 .booming-voice,
 h1 {
@@ -55,7 +58,8 @@ h4, h5, h6 {
 
 .calm-voice,
 p,
-li {
+li,
+div {
 	font-family: sans-serif;
 	font-size: 1rem;
 	line-height: 1.4;
